@@ -17,6 +17,7 @@ function displayRepositories(event,data){
 
 
 function getCommits(el) {
+  debugger
   const name = el.dataset.repository
   const req = new XMLHttpRequest()
   req.addEventListener("load", displayCommits)
